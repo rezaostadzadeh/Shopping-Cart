@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 48px;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: var(--ink);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-links a {
+  position: relative;
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 4px;
+  transition: color 0.15s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--ink);
+}
+
+.navbar-links a.active {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+.cart-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  margin-left: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 999px;
+}
