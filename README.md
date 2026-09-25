@@ -12,4 +12,4 @@ A simple and responsive Shopping Cart application built with React.
 - JavaScript
 - CSS
 
-## [Live Version](https://shopping-cart-reza-4e04.vercel.app/)
+## [Live Version](https://shopping-cart-five-amber-61.vercel.app/)
